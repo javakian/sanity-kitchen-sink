@@ -10,7 +10,9 @@
     "build": "sanity build",
     "graphql-deploy": "sanity graphql deploy --playground",
     "lint": "eslint .",
-    "test": "sanity check"
+    "test": "sanity check",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@sanity/base": "^1.149.10",
@@ -36,7 +38,8 @@
     "sanity-plugin-dashboard-widget-document-list": "^0.0.8",
     "sanity-plugin-dashboard-widget-netlify": "^1.0.1",
     "sanity-plugin-google-analytics": "^0.2.6",
-    "sanity-plugin-mux-input": "^0.2.1"
+    "sanity-plugin-mux-input": "^0.2.1",
+    "snyk": "^1.502.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
@@ -48,6 +51,7 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-standard": "^4.0.0",
-    "prettier-eslint-cli": "^4.7.1"
-  }
+    "prettier-eslint-cli": "^5.0.0"
+  },
+  "snyk": true
 }
