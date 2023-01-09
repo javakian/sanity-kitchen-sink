@@ -18,7 +18,7 @@
     "@sanity/code-input": "^1.149.7",
     "@sanity/color-input": "^1.149.7",
     "@sanity/components": "^1.149.10",
-    "@sanity/core": "^1.149.12",
+    "@sanity/core": "^2.14.0",
     "@sanity/dashboard": "^1.149.10",
     "@sanity/default-layout": "^1.149.10",
     "@sanity/default-login": "^1.149.11",
@@ -36,7 +36,7 @@
     "sanity-plugin-dashboard-widget-document-list": "^0.0.8",
     "sanity-plugin-dashboard-widget-netlify": "^1.0.1",
     "sanity-plugin-google-analytics": "^0.2.6",
-    "sanity-plugin-mux-input": "^0.2.1"
+    "sanity-plugin-mux-input": "^0.3.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
