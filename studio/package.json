@@ -18,7 +18,7 @@
     "@sanity/code-input": "^1.149.7",
     "@sanity/color-input": "^1.149.7",
     "@sanity/components": "^1.149.10",
-    "@sanity/core": "^1.149.12",
+    "@sanity/core": "^1.150.0",
     "@sanity/dashboard": "^1.149.10",
     "@sanity/default-layout": "^1.149.10",
     "@sanity/default-login": "^1.149.11",
@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-config-standard-react": "^7.0.2",
     "eslint-plugin-import": "^2.17.3",
@@ -48,6 +48,6 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-standard": "^4.0.0",
-    "prettier-eslint-cli": "^4.7.1"
+    "prettier-eslint-cli": "^8.0.0"
   }
 }
