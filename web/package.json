@@ -44,7 +44,7 @@
     "gatsby-plugin-sharp": "^2.4.4",
     "gatsby-source-filesystem": "^2.1.47",
     "gatsby-transformer-sharp": "^2.3.13",
-    "katex": "^0.11.1",
+    "katex": "^0.16.10",
     "react-instagram-embed": "^1.5.0",
     "react-player": "^1.15.2"
   }
